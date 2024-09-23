@@ -1,4 +1,4 @@
-package com.springbootmongoelasticsearch.models;
+package com.springbootmongoelasticsearch.models.mongo;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

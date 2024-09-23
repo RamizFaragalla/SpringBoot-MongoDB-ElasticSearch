@@ -1,9 +1,11 @@
 package com.springbootmongoelasticsearch.exceptions;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.springframework.http.HttpStatus;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class AppException extends RuntimeException {
     private HttpStatus httpStatus;
 
